@@ -4,6 +4,8 @@ Para gerar o arquivo executável *(o jogo)* basta executar o arquivo 'compila'
 Esse arquivo envia o código-fonte do arquivo *game.c* para o compilador tinyCC\
 (Tiny C Compiler).
 
+O nome do arquivo com código deve ser game.c
+
 No desenvolvimento de software é comum errar e tentar de novo.\
 Caso haja algum erro no código o 'compila' irá falhar.\
 As regras da linguagem C são muitas e são rígidas.
@@ -46,3 +48,6 @@ void drawpoly(int* points_xy,int count);
 void fillpoly(int* points_xy,int count);
 void blitInt(int n,int x,int y);
 ```
+
+## Site Oficial
+https://baideruls.github.io/Poly
